@@ -13,6 +13,7 @@ struct SetView: View {
     var body: some View {
         NavigationStack {
             List {
+                Text("An unordered collection of unique elements.").font(.footnote)
                 Section {
                     Text("let numbers: Set = [1, 2, 3]").font(.system(.body, design: .monospaced))
                         .foregroundStyle(.accent)
@@ -28,7 +29,6 @@ struct SetView: View {
                 }
             }
             .navigationTitle("Set")
-            Text("An unordered collection of unique elements.").font(.footnote)
         }
     }
 }

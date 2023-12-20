@@ -14,6 +14,7 @@ struct DoubleView: View {
     var body: some View {
         NavigationStack {
             List {
+                Text("A double-precision, floating-point value type.").font(.footnote)
                 Section {
                     Text("var GPA: Double = 4.0").font(.system(.body, design: .monospaced))
                         .foregroundStyle(.accent)
@@ -33,7 +34,6 @@ struct DoubleView: View {
                 }
             }
             .navigationTitle("Double")
-            Text("A double-precision, floating-point value type.").font(.footnote)
         }
     }
 }

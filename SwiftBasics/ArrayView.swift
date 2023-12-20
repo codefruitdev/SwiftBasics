@@ -13,6 +13,8 @@ struct ArrayView: View {
     var body: some View {
         NavigationStack {
             List {
+                Text("An ordered, random-access collection.").font(.footnote)
+
                 Section {
                     Text("let oddNumbers = [1, 3, 5, 7]").font(.system(.body, design: .monospaced))
                         .foregroundStyle(.accent)
@@ -28,7 +30,6 @@ struct ArrayView: View {
                 }
             }
             .navigationTitle("Array")
-            Text("An ordered, random-access collection.").font(.footnote)
         }
     }
 }

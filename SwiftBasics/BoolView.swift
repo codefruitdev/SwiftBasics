@@ -13,6 +13,7 @@ struct BoolView: View {
     var body: some View {
         NavigationStack {
             List {
+                Text("A value type whose instances are either true or false.").font(.footnote)
                 Section {
                     Text("var subscribed: Bool = true").font(.system(.body, design: .monospaced))
                         .foregroundStyle(.accent)
@@ -23,7 +24,6 @@ struct BoolView: View {
                 }
             }
             .navigationTitle("Bool")
-            Text("A value type whose instances are either true or false.").font(.footnote)
         }
     }
 }

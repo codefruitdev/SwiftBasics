@@ -13,6 +13,7 @@ struct IntView: View {
     var body: some View {
         NavigationStack {
             List {
+                Text("A signed integer value type.").font(.footnote)
                 Section {
                     Text("var age: Int = 32").font(.system(.body, design: .monospaced))
                         .foregroundStyle(.accent)
@@ -32,7 +33,6 @@ struct IntView: View {
                 }
             }
             .navigationTitle("Int")
-            Text("A signed integer value type.").font(.footnote)
         }
     }
 }

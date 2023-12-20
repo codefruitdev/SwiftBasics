@@ -13,6 +13,7 @@ struct StringView: View {
     var body: some View {
         NavigationStack {
             List {
+                Text("A Unicode string value that is a collection of characters.").font(.footnote)
                 Section {
                     Text("var favoriteMovie = 'Arrival'").font(.system(.body, design: .monospaced))
                         .foregroundStyle(.accent)
@@ -23,7 +24,6 @@ struct StringView: View {
                 }
             }
             .navigationTitle("String")
-            Text("A Unicode string value that is a collection of characters.").font(.footnote)
         }
     }
 }
