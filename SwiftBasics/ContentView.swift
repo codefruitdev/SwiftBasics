@@ -57,6 +57,15 @@ struct ContentView: View {
                 } header: {
                     Text("Collections")
                 }
+                
+                Section {
+                    NavigationLink("If") {
+                        
+                    }
+                    .foregroundStyle(.accent)
+                } header: {
+                    Text("Statements")
+                }
             }
             .navigationTitle("Swift Basics")
         }
