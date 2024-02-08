@@ -8,10 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		8187CB5A2B2A6D4F00403254 /* SwiftBasicsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8187CB592B2A6D4F00403254 /* SwiftBasicsApp.swift */; };
-		8187CB5C2B2A6D4F00403254 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8187CB5B2B2A6D4F00403254 /* ContentView.swift */; };
+		8187CB5C2B2A6D4F00403254 /* DataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8187CB5B2B2A6D4F00403254 /* DataView.swift */; };
 		8187CB5E2B2A6D4F00403254 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8187CB5D2B2A6D4F00403254 /* Assets.xcassets */; };
 		8187CB622B2A6D4F00403254 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8187CB612B2A6D4F00403254 /* Preview Assets.xcassets */; };
 		81CEB8DC2B2D342A0020EF0B /* IntView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CEB8DB2B2D342A0020EF0B /* IntView.swift */; };
+		81E423192B7454DA00544876 /* LogicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E423182B7454DA00544876 /* LogicView.swift */; };
+		81E4231B2B74551B00544876 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E4231A2B74551B00544876 /* ContentView.swift */; };
+		81E4231D2B74573900544876 /* IfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E4231C2B74573900544876 /* IfView.swift */; };
+		81E4231F2B745A6500544876 /* SwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E4231E2B745A6500544876 /* SwitchView.swift */; };
+		81E423212B745C9D00544876 /* ForEachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E423202B745C9D00544876 /* ForEachView.swift */; };
 		81F0CB152B2D45A40040BA03 /* DoubleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F0CB142B2D45A40040BA03 /* DoubleView.swift */; };
 		81F0CB172B2D4BB20040BA03 /* StringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F0CB162B2D4BB20040BA03 /* StringView.swift */; };
 		81F0CB192B2D4DF40040BA03 /* BoolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F0CB182B2D4DF40040BA03 /* BoolView.swift */; };
@@ -22,11 +27,16 @@
 /* Begin PBXFileReference section */
 		8187CB562B2A6D4F00403254 /* SwiftBasics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBasics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8187CB592B2A6D4F00403254 /* SwiftBasicsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBasicsApp.swift; sourceTree = "<group>"; };
-		8187CB5B2B2A6D4F00403254 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8187CB5B2B2A6D4F00403254 /* DataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataView.swift; sourceTree = "<group>"; };
 		8187CB5D2B2A6D4F00403254 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8187CB5F2B2A6D4F00403254 /* SwiftBasics.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftBasics.entitlements; sourceTree = "<group>"; };
 		8187CB612B2A6D4F00403254 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		81CEB8DB2B2D342A0020EF0B /* IntView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntView.swift; sourceTree = "<group>"; };
+		81E423182B7454DA00544876 /* LogicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogicView.swift; sourceTree = "<group>"; };
+		81E4231A2B74551B00544876 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		81E4231C2B74573900544876 /* IfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfView.swift; sourceTree = "<group>"; };
+		81E4231E2B745A6500544876 /* SwitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchView.swift; sourceTree = "<group>"; };
+		81E423202B745C9D00544876 /* ForEachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachView.swift; sourceTree = "<group>"; };
 		81F0CB142B2D45A40040BA03 /* DoubleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleView.swift; sourceTree = "<group>"; };
 		81F0CB162B2D4BB20040BA03 /* StringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringView.swift; sourceTree = "<group>"; };
 		81F0CB182B2D4DF40040BA03 /* BoolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoolView.swift; sourceTree = "<group>"; };
@@ -65,7 +75,11 @@
 			isa = PBXGroup;
 			children = (
 				8187CB592B2A6D4F00403254 /* SwiftBasicsApp.swift */,
-				8187CB5B2B2A6D4F00403254 /* ContentView.swift */,
+				8187CB5B2B2A6D4F00403254 /* DataView.swift */,
+				81E423182B7454DA00544876 /* LogicView.swift */,
+				81E423202B745C9D00544876 /* ForEachView.swift */,
+				81E4231E2B745A6500544876 /* SwitchView.swift */,
+				81E4231C2B74573900544876 /* IfView.swift */,
 				81F0CB1A2B2D4FE90040BA03 /* ArrayView.swift */,
 				81F0CB1C2B2D4FF00040BA03 /* SetView.swift */,
 				81F0CB182B2D4DF40040BA03 /* BoolView.swift */,
@@ -75,6 +89,7 @@
 				8187CB5D2B2A6D4F00403254 /* Assets.xcassets */,
 				8187CB5F2B2A6D4F00403254 /* SwiftBasics.entitlements */,
 				8187CB602B2A6D4F00403254 /* Preview Content */,
+				81E4231A2B74551B00544876 /* ContentView.swift */,
 			);
 			path = SwiftBasics;
 			sourceTree = "<group>";
@@ -115,7 +130,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1510;
-				LastUpgradeCheck = 1510;
+				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					8187CB552B2A6D4F00403254 = {
 						CreatedOnToolsVersion = 15.1;
@@ -157,13 +172,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8187CB5C2B2A6D4F00403254 /* ContentView.swift in Sources */,
+				81E423192B7454DA00544876 /* LogicView.swift in Sources */,
+				8187CB5C2B2A6D4F00403254 /* DataView.swift in Sources */,
+				81E423212B745C9D00544876 /* ForEachView.swift in Sources */,
 				81F0CB1B2B2D4FE90040BA03 /* ArrayView.swift in Sources */,
 				81F0CB172B2D4BB20040BA03 /* StringView.swift in Sources */,
 				81F0CB152B2D45A40040BA03 /* DoubleView.swift in Sources */,
 				81CEB8DC2B2D342A0020EF0B /* IntView.swift in Sources */,
+				81E4231B2B74551B00544876 /* ContentView.swift in Sources */,
 				81F0CB192B2D4DF40040BA03 /* BoolView.swift in Sources */,
+				81E4231F2B745A6500544876 /* SwitchView.swift in Sources */,
 				8187CB5A2B2A6D4F00403254 /* SwiftBasicsApp.swift in Sources */,
+				81E4231D2B74573900544876 /* IfView.swift in Sources */,
 				81F0CB1D2B2D4FF00040BA03 /* SetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,6 +225,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -266,6 +287,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -293,6 +315,7 @@
 				CODE_SIGN_ENTITLEMENTS = SwiftBasics/SwiftBasics.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftBasics/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -329,6 +352,7 @@
 				CODE_SIGN_ENTITLEMENTS = SwiftBasics/SwiftBasics.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftBasics/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;

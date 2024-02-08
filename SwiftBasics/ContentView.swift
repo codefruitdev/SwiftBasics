@@ -2,70 +2,23 @@
 //  ContentView.swift
 //  SwiftBasics
 //
-//  Created by Tyler Plesetz on 12/13/23.
+//  Created by Tyler Plesetz on 2/7/24.
 //
 
 import SwiftUI
 
 struct ContentView: View {
-    /// Note: The SwiftUI code in this video will not be optimal at first, as we are focusing on basic Swift components
-    /// We will enhance this app as we move through this series
-    
     var body: some View {
         NavigationStack {
-            List {
-                Section {
-                    NavigationLink("Int") {
-                        IntView()
+            TabView {
+                DataView()
+                    .tabItem {
+                        Label("Data", systemImage: "server.rack")
                     }
-                    .foregroundStyle(.accent)
-                    NavigationLink("Double") {
-                        DoubleView()
+                LogicView()
+                    .tabItem {
+                        Label("Logic", systemImage: "brain.filled.head.profile")
                     }
-                    .foregroundStyle(.accent)
-                } header: {
-                    Text("Numbers")
-                }
-                
-                Section {
-                    NavigationLink("String") {
-                        StringView()
-                    }
-                    .foregroundStyle(.accent)
-                } header: {
-                    Text("Text")
-                }
-                
-                Section {
-                    NavigationLink("Bool") {
-                        BoolView()
-                    }
-                    .foregroundStyle(.accent)
-                } header: {
-                    Text("Logic")
-                }
-                
-                Section {
-                    NavigationLink("Array") {
-                        ArrayView()
-                    }
-                    .foregroundStyle(.accent)
-                    NavigationLink("Set") {
-                        SetView()
-                    }
-                    .foregroundStyle(.accent)
-                } header: {
-                    Text("Collections")
-                }
-                
-                Section {
-                    NavigationLink("If") {
-                        
-                    }
-                    .foregroundStyle(.accent)
-                } header: {
-                    Text("Statements")
-                }
             }
             .navigationTitle("Swift Basics")
         }
